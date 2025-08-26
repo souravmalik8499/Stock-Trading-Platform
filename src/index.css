@@ -21,3 +21,34 @@ code {
 .footer-link:hover {
   color: blue; 
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1030; 
+  background-color: #fff !important; 
+  border-bottom: 1px solid #eaeaea;
+}
+
+footer a {
+  text-decoration: none;   
+  color: #000;            
+  font-size: 15px;
+  display: inline-block;   
+  margin-bottom: 6px;      
+  transition: color 0.3s ease;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center; 
+  gap: 30px;               
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #444;
+}
+

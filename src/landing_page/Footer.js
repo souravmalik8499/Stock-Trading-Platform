@@ -99,7 +99,18 @@ function Footer() {
             create a ticket here.
           </p>
         </div>
+        <div className="footer-links">
+  <a href="#">NSE</a>
+  <a href="#">BSE</a>
+  <a href="#">MCX</a>
+  <a href="#">Terms & conditions</a>
+  <a href="#">Policies & procedures</a>
+  <a href="#">Privacy policy</a>
+  <a href="#">Disclosure</a>
+</div>
+
       </div>
+
     </footer>
   );
 }
