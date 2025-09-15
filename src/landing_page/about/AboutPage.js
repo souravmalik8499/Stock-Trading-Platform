@@ -10,7 +10,8 @@ function AboutPage() {
         <>
         <Hero />
         <Team />
+        <Footer />
         </>
     );
 }
-export default PricingPage;
+export default AboutPage;
