@@ -1,17 +1,20 @@
 import React from "react";
+
 import Hero from "./Hero";
 import CreateTicket from "./CreateTicket";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
-import PricingPage from "../about/AboutPage";
 
-function SupportPage() {
-    return (
-        <>
-        <Hero />
-        <CreateTicket />
-        
-        </>
-    );
+
+import Footer from "../Footer";
+
+function PricingPage() {
+  return (
+    <>
+      
+      <Hero />
+      <CreateTicket />
+      <Footer />
+    </>
+  );
 }
-export default PricingPage; 
+
+export default PricingPage;

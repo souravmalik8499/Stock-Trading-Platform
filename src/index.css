@@ -51,4 +51,27 @@ footer a {
   text-decoration: none;
   color: #444;
 }
+#supportHero{
+  background-color: rgb(56, 126, 209);
+  color: white;
+  margin-top: 50px;
+}
 
+#supportHero a{
+  color: white;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+#supportHero input{
+  padding: 20px 50px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  margin: top 100px;
+}
