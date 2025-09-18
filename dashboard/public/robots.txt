@@ -1,7 +1,0 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-<<<<<<< HEAD
-Disallow:
-=======
-Disallow:
->>>>>>> c5c16a9 (implement dashboard)
