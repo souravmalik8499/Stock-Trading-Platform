@@ -11,6 +11,7 @@ import SupportPage from './landing_page/support/SupportPage';
 import Navbar from './landing_page/Navbar';
 import NotFound from './landing_page/NotFound';
 import "font-awesome/css/font-awesome.min.css";
+import Login from './landing_page/login/Login';
 
 
 
@@ -22,6 +23,7 @@ root.render(
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/signup" element={<Signup />} />
+      <Route path="/login" element={<Login />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/Product" element={<ProductPage />} />
       <Route path="/pricing" element={<PricingPage />} />
